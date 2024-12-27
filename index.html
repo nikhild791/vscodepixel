@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assests/favicon.ico" type="image/x-icon">
+    <title>Visual Studio Code - Code Editing. Redefined</title>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="footer.css">
+</head>
+<body>
+    <div class="main">
+        <nav>
+        <div class="navbar container">
+            <div class="left">
+                <div class="left_left">
+                    <div class="logo"></div>
+                    <span>Visual Studio Code</span>
+                </div>
+                <div class="left_right">
+                    <div class="nav_menu">
+                        <ul>
+
+                            <li><a href="#">Docs</a></li>
+                            <li><a href="#">Updates</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">API</a></li>
+                            <li><a href="#">Extensions</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">GitHub Copilot</a></li>
+                        </ul>
+                    </div>
+                </div>
+             </div>
+            <div class="right">
+                    <button class="nav_btn_theme"><img src="./assests/theme-dark.svg" alt=""></button>
+                    <div class="nav_input">
+                        <input type="text" class="nav_input_search" placeholder="Search Docs">
+                        <span class="nav_input_search_icon"><img src="./assests/search.svg" alt=""></span>
+                    </div>
+                    <button class="nav_btn_download">Download</button>
+            </div>
+        </div>
+    </nav>
+    <div class="main_content">
+
+        <div class="update-banner home">
+            <div class="container">
+              
+                    <p class="updates-banner-message" id="updates-banner-message">
+                        🚀 Get 
+                        <a href="#">GitHub Copilot Free</a>
+                        in VS Code!
+                    </p>
+            </div>
+            <div class="update-banner-dismise-btn" id="update-banner-dismise-btn">
+                <span></span>
+            </div>
+        </div>
+        <div class="home container">
+            <div class="home_text ">
+                <h1>Your code editor. Redefined with AI</h1>
+                <div class="home_text_heading">
+                    <div class="home-btn">
+                        <button class="home-btn-download">Download for Windows</button>
+                        <button class="home-btn-copilot">Get Copilot Free</button>
+                    </div>
+                    <p class="home_text_heading_p1">
+                        <a href="#">Web,</a>
+                        <a href="#">Insiders edition,</a>
+                        <span>or</span>
+                        <a href="#">other platforms</a>
+                    </p>
+                    <p class="home_text_heading_p2">
+
+                        By using VS Code, you agree to it's <span> license</span> and <span> privacy statement.</span> </p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="video_container">
+                <video poster="./assests/heroVideo/hero-poster-light.webp">
+                   <source media="(max-width:991px)" src="./assests/heroVideo/hero-light-lg.webm" type="video/webm">
+                </video>
+                <img src="./assests/heroVideo/hero-background.webp" alt="Video Download">
+                <div class="video_controller">
+                    <button class="video_controller_btn">Play</button>
+                </div>
+            </div>
+        </div>
+        <div class="three-col-feature container">
+            <div class="three-col-feature-container">
+                <div class="three-col-feature-box">
+                    <h1>Choose the model that works for you</h1>
+                    <p>Pick the model that works best for your project and team, including GPT 4o and Claude Sonnet</p>
+                    <div><img src="./assests/choose-model-light.webp" alt=""></div>
+                </div>
+                <div class="three-col-feature-box">
+                    <h1>An expert on your codebase</h1>
+                    <p>Copilot locally indexes your codebase to understand what's relevant and supplements that context to interactions with Copilot</p>
+                    <div><img src="./assests/multi-file-light.webp" alt=""></div>
+                </div>
+                <div class="three-col-feature-box">
+                    <h1>Personalized to your needs</h1>
+                    <p>Copilot works the way you do. Customize Copilot's prompts with details about your team's workflows, tools, and prjects</p>
+                    <div><img src="./assests/instructions-light.webp" alt=""></div>
+                </div>
+            </div>
+        </div>
+        <div class="container acf">
+            <div class="copilot-banner">
+                <div class="copilot-banner-left">
+                   <h1> Activate Copilot Free in Visual Studio Code</h1>
+                </div>
+                <div class="copilot-banner-right">
+                    <p>No trial. No credit card required. Just your GitHub accout</p>
+                    <button>Get Copilot Free</button>
+                </div>
+            </div>
+        </div>
+        <div class="container create-faster">
+            <div class="create-faster-container">
+                <div class="create-faster-left">
+                    <h1>Create faster</h1>
+                    <div>
+
+                        <p>Describe what you want to build in natural language, and Copilot Edits takes care of the rest. Copilot Edits makes changes across files in your codebase with a UI designed for rapid iteration. it's the fastest way to add new functionality to your apps</p>
+                        <a href="#">Build with Copilot Edits</a>
+                    </div>
+                    <div>
+
+                        <p>Copilot Chat is an expert on your codebase, helping you to answer questions, explain code, and propose fixes. Chat is availabe wherever you need it - either as a dedicated sidebar panel or directly from within your code so yu can stay in context</p>
+                        <a href="#">Get answer from Copilot Chat</a>
+                    </div>
+                    </div>
+                <div class="create-faster-right">
+                    <img src="./assests/swimlane-chat-light.webp" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="container create-faster">
+            <div class="create-faster-container">
+                <div class=" create-faster-left create-faster-second-left">
+                    <h1>Code efficiently</h1>
+                    <p>Copilot is your AI pair programmer infused directly into the editor. Just start typing, and Copilot will complete your thought by offering a completion on the current line or something a whole new block of code. Just like a coworker, you have the flexiblility to accept all, some, or none of Copilot's suggestions. Copilot supports a broad range of languages and frameworks.</p>
+                    <a href="#">Pair program with Copilot</a>
+                </div>
+                <div class="create-faster-second-right create-faster-right">
+                    <img src="./assests/completions-light.webp" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="container create-faster">
+            <div class="create-faster-container">
+                <div class="create-faster-left">
+                    <h1>Code with Extensions</h1>
+                    <p>Extensions let you custmize VS Code and Copilot with AI-powered features grounded securely in your team's data and workflows. Grab one from the gallery and add it to chat like @azure, or <a href="#">
+                        build your own Copilt extensions
+                    </a> to power your team's unique scenarios.</p>
+                </div>
+                <div class="create-faster-right">
+                    <div class="extensios-grid-container">
+                        <div class="extensions-grid-column">
+                            <div>
+                                <img src="./assests/codeWithExtensions/python-extension.png" alt="">
+                                <div>
+                                    <h2>Python</h2>
+                                    <p>Adds rich language support for Python</p>
+                                </div>
+                            </div>
+                            <div>
+                                <img src="./assests/codeWithExtensions/stripe-extension.png" alt="">
+                                <div>
+                                    <h2>Stripe</h2>
+                                    <p>Build test, and use Stripe inside your editor</p>
+                                </div>
+                            </div>
+                            <div>
+                                <img src="./assests/codeWithExtensions/c-extension.png" alt="">
+                                <div>
+                                    <h2>C/C++</h2>
+                                    <p>Adds rich language support for C/C++</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="extensions-grid-column">
+                            <div>
+                                <img src="./assests/codeWithExtensions/jupyter-extension.png" alt="">
+                                <div>
+                                    <h2>jupyter</h2>
+                                    <p>Language support for Jupyter Notebooks</p>
+                                </div>
+                            </div>
+                            <div>
+                                <img src="./assests/codeWithExtensions/gitlens-extension.png" alt="">
+                                <div>
+                                    <h2>GitLens</h2>
+                                    <p>Supercharge your Git experience </p>
+                                </div>
+                            </div>
+                            <div>
+                                <img src="./assests/codeWithExtensions/cs-dev-kit-extension.png" alt="">
+                                <div>
+                                    <h2>C# Dev Kit</h2>
+                                    <p>Powerful tools for your C# environment</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="extensions-grid-column">
+                            <div>
+                                <img src="./assests/codeWithExtensions/mongodb-extension.png" alt="">
+                                <div>
+                                    <h2>MongoDB</h2>
+                                    <p>Extensions for the @MongoDB agent</p>
+                                </div>
+                            </div>
+                            <div>
+                                <img src="./assests/codeWithExtensions/azure.png" alt="">
+                                <div>
+                                    <h2>GitHub Copilot for Azure</h2>
+                                    <p>Streamline the process of developing for Azure </p>
+                                </div>
+                            </div>
+                            <div>
+                                <img src="./assests/codeWithExtensions/remote-extension.png" alt="">
+                                <div>
+                                    <h2>Remote Development</h2>
+                                    <p>container on the remote machine</p>
+                                </div>
+                            </div>
+                        </div>
+                       
+                    </div>
+                    <div class="extensios-grid-bottom">View 60k+ extensions in the <a href="">Extension Marketplace </a></div>
+                </div>
+            </div>
+        </div>
+        <div class="container create-faster">
+            <div class="create-faster-container">
+            <div class="create-faster-left">
+                <h1 >Code in any language</h1>
+                <p >VS Code supports almost every major programming language. Several ship in the box, like JavaScript, TypeScript, CSS, and HTML, but extensions for others can be found in the VS Code Marketplace.</p>
+            </div>                
+            <div class="create-faster-right yeah-right">
+                <div class="language">
+                    <div class="lang_first">
+                        <div class="logo1"><img src="./assests/lang-icons/language-js.png" alt="">JavaScript</div>
+                        <div class="logo1"><img src="./assests/lang-icons/language-cs.png" alt="">C#</div>
+                        <div class="logo1"><img src="./assests/lang-icons/language-java.png" alt="">Java</div>
+                        <div class="logo1"><img src="./assests/lang-icons/language-markdown.png" alt="">Markdown</div>
+                    </div>
+                    <div class="lang_second">
+                        <div class="logo1"><img src="./assests/lang-icons/language-ts.png" alt="">TypeScript</div>
+                        <div class="logo1"><img src="./assests/lang-icons/language-cpp.png" alt="">C++</div>
+                        <div class="logo1"><img src="./assests/lang-icons/language-json.png" alt="">JSON</div>
+                        <div class="logo1"><img src="./assests/lang-icons/language-powershell.png" alt="">Powershell</div>
+                    </div>
+                    <div class="lang_third">
+                        <div class="logo1"><img src="./assests/lang-icons/language-python.png" alt="">Python</div>
+                        <div class="logo1"><img src="./assests/lang-icons/language-html.png" alt="">HTML</div>
+                        <div class="logo1"><img src="./assests/lang-icons/language-php.png" alt="">PHP</div>
+                        <div class="logo1"><img src="./assests/lang-icons/language-yaml.png" alt="">YAML</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            </div>
+       
+        <div class="container create-faster">
+            <div class="create-faster-container">
+                <div class="create-faster-left">
+                    <h1>Fully customizable</h1>
+                    <div>
+                            <p>Customize your VS Code UI and layout so that it fits your coding style.</p>
+                        </div>
+                        <div >
+                            <p><a href="#" >Color themes</a>
+                                let you modify the colors in VS Code's user interface to suit your preferences and work
+                                environment.</p>
+                        </div>
+                        <div >
+                            <p><a href="#" >Settings Sync</a> enables you to share your user settings across
+                                your VS Code instances with the Settings Sync feature.</p>
+                        </div>
+                        <div >
+                            <p><a href="#">Profiles</a> let you create sets of customizations and quickly
+                                switch between them or share them with others.</p>
+                        </div>
+                    </div>
+                <div class="create-faster-right">
+                    <img src="./assests/swimlane-customized-light.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="container create-faster">
+            <div class="create-faster-container">
+                <div class="create-faster-left">
+                    <div >
+                            <h1>Code anywhere</h1>
+                            <p>Code wherever you're most productive, whether you're connected to the cloud, a remote repository,
+                                or in the browser with VS Code for the Web (vscode.dev).</p>
+                        </div>
+                        <div >
+                            <p><a href="#">Built-in
+                                    Source Control</a> empowers you with Git support out-of-the-box. Many other source control
+                                providers are available through extensions.</p>
+                        </div>
+                        <div >
+                            <p><a href="#" >GitHub Codespaces</a> provides cloud-powered development
+                                environments for any activity - whether it's a long-term project, or a short-term task like
+                                reviewing a pull request.</p>
+                        </div>
+                    </div>
+                <div class="create-faster-right">
+                    <img src="./assests/swimlane-anywhere-light.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="container create-faster">
+            <div class="new-container">
+                <div class="new-container-upper">
+                    <h1>
+                        Code with rich features
+                    </h1>
+                    <p>There's a lot more to an edior. Whether it's using built-in features or rich extensions, there's something for everyone</p>
+                </div>
+                <div class="new-container-lower">
+                    <div class="new-container-lower-grid">
+                        <div>
+                            <img src="./assests/secfooter/codicon-terminal.svg" alt="">
+                            <h1>Integrated terminal</h1>
+                            <p>User your favorite shell whether it's zsh, pwsh, or git bash, all inside the editor</p>
+                        </div>
+                        <div>
+                            <img src="./assests/secfooter/codicon-debug.svg" alt="">
+                            <h1>Run code</h1>
+                            <p>Run and debug your code without leaving your editor.</p>
+                        </div>
+                        <div>
+                            <img src="./assests/secfooter/codicon-version-control.svg" alt="">
+                            <h1>Version control</h1>
+                            <p>Built-in support for git and many other source control provides.</p>
+                        </div>
+                        <div>
+                            <img src="./assests/secfooter/codicon-build-tasks.svg" alt="">
+                            <h1>Build tasks</h1>
+                            <p>Run tools and analyze their results from within VS Code. </p>
+                        </div>
+                        <div>
+                            <img src="./assests/secfooter/codicon-local-history.svg" alt="">
+                            <h1>Local history</h1>
+                            <p>Never lose your changes with automatically tracked local history.</p>
+                        </div>
+                        <div>
+                            <img src="./assests/secfooter/codicon-themes.svg" alt="">
+                            <h1>Themes</h1>
+                            <p>Your theme is an extension of your personality. Add some flair to your editor and add your touch.</p>
+                        </div>
+                        <div>
+                            <img src="./assests/secfooter/codicon-accessibility.svg" alt="">
+                            <h1>Accessiblity</h1>
+                            <p>Optimized experience for screen readers, high contrast themes, and keyboard-only navigation.</p>
+                        </div>
+                        <div>
+                            <img src="./assests/secfooter/codicon-web.svg" alt="">
+                            <h1>Web support</h1>
+                            <p>Whether you are on your phone, tablet, or desktop, you can access your code from anywhere.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container ">
+        <div class="footer" >
+                <div class="footer_main">
+                    <div class="footer_row footer-first">
+                        <div>
+                            <ul>
+                                <li><a href="#"><img src="./assests/footer-icons/x-icon.svg" alt=""></a></li>
+                                <li><a href="#"><img src="./assests/footer-icons/github-icon.svg" alt=""></a></li>
+                                <li><a href="#"><img src="./assests/footer-icons/youtube-icon.svg" alt=""></a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <img src="./assests/footer-icons/microsoft.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="footer_row">
+                        <ul>
+                            <li><a href="#">Support</a></li>
+                            <li><a href="#">Privacy</a></li>
+                            <li><a href="#">Terms of Use</a></li>
+                            <li><a href="#">license</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            </div>
+    </div>
+</div>
+    <script src="index.js"></script>
+</body>
+</html>
